@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_excel(r"C:\Users\Hanifi\Desktop\python\veri.xlsx")
+df = pd.read_excel("bilisim23.xlsx")
 df = df.drop(columns=["Unnamed: 0.1", "Unnamed: 0"])
 
 # CSS Stili
